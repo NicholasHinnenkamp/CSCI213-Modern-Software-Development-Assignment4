@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebProject2.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            font-size: x-large;
+        }
+        .auto-style2 {
+            font-size: xx-large;
+        }
+        .auto-style3 {
+            font-size: large;
+            background-color: #FFFFFF;
+        }
+        .auto-style4 {
+            font-size: medium;
+        }
+        .auto-style5 {
+            font-size: large;
+            color: #0000FF;
+            background-color: #FFFFFF;
+        }
+    </style>
+</head>
+<span class="auto-style2">Personal Appplication</span><span class="auto-style1">&nbsp;&nbsp;
+<asp:HyperLink ID="HyperLink1" runat="server" CssClass="auto-style5" NavigateUrl="~/home.aspx">Home</asp:HyperLink>
+&nbsp;&nbsp;&nbsp; </span>
+<asp:HyperLink ID="HyperLink2" runat="server" CssClass="auto-style3" NavigateUrl="~/personnel.aspx">Personnel</asp:HyperLink>
+<span class="auto-style1">&nbsp; </span>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <p>
+                    <br />
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+<span class="auto-style4">Assignment 2_StudentName_Class Number</span>
+</html>
